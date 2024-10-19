@@ -1,0 +1,53 @@
+/* Đặt màu nền và font chữ */
+body {
+    background-color: #FEE0E8; /* Màu pastel hồng nhạt */
+    font-family: 'Poppins', sans-serif;
+    color: #4C4C6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #D0F0F7; /* Màu pastel xanh nhạt */
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 2.5em;
+    color: #FF6F91; /* Màu hồng nổi bật */
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #FF6F91;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF4081;
+}
+
+#surprise {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
